@@ -41,7 +41,7 @@ public class Arm extends SubsystemBase {
         .feedbackSensor(FeedbackSensor.kPrimaryEncoder)
         .p(0.5).i(0).d(0) // Automatically configures slot 0
         .outputRange(-1, 1)
-        .positionWrappingEnabled(false);    
+        .positionWrappingEnabled(false); 
 
     armMotorController.configure(
         armConfig, ResetMode.kNoResetSafeParameters, PersistMode.kNoPersistParameters
