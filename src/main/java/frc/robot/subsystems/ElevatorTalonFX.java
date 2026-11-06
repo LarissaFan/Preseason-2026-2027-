@@ -38,7 +38,7 @@ private boolean StatorCurrentLimitEnable;
   TalonFXConfiguration leaderConfig = new TalonFXConfiguration();
   leaderConfig.MotorOutput.NeutralMode = NeutralModeValue.Brake;
   leaderConfig.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
-  leaderConfig.CurrentLimits.StatorCurrentLimit = 40.0
+  leaderConfig.CurrentLimits.StatorCurrentLimit = 40.0;
   leaderConfig.CurrentLimits.StatorCurrentLimitEnable = True;
 
   leaderConfig.Voltage.PeakForwardVoltage = 12.0;
